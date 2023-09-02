@@ -1,0 +1,67 @@
+.top{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    color: gray;
+}
+h1{
+    padding-top:.8%;
+}
+ul{
+    margin-top:-1.5%;
+    margin-right: 3.5%;
+    padding-bottom: 1%;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+#one{
+    width:80%;
+    height:20%;
+    padding-top: 10%;
+}
+.food{
+    display: inline-block;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    margin: 0.5%;
+    margin-top: 3%;
+    border-radius: 5%;
+}
+#last{
+    height:55% ;
+    width: 75%;
+    padding-top: 12%;
+}
+#order{
+    color: white;
+    background-color: black;
+    margin-bottom: 5%;
+}
+.bottom{
+    color: white;
+    background-color: black;
+}
+#input{
+    text-align: center;
+    width: 50%;
+    background-color: yellow;
+    color: black;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+#input:hover{
+    transform: scale(1.1);
+}
+#order:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.food:hover{
+    transform: scale(1.1);   
+}
